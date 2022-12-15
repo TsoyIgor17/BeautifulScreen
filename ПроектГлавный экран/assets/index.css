@@ -1,0 +1,431 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    background-color: antiquewhite;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.logo {
+    height: 200px;
+    margin: -40px 0;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.head-nav {
+    background-color: rgb(221, 202, 178);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s;
+}
+.head-nav:hover {
+    transform: scale(1.2);
+    background-color: rgb(195, 178, 156);
+}
+
+
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: aliceblue;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 60px 10%;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'La Belle Aurore', cursive;
+    gap: 50px;
+    min-width: 350px;
+}
+.main-title {
+    font-size: 40px;
+    font-family: 'La Belle Aurore', cursive;
+    color: rgb(69, 69, 69);
+}
+.main-article {
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+
+}
+
+.main-img-holder {
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+    align-items: center;
+    position: relative;
+}
+.main-img {
+    border-radius: 20px;
+    border: 4px solid rgb(221, 202, 178);
+    box-shadow: 0 0 20px 0;
+}
+
+.main-img1 {
+    height: 400px;
+}
+.main-img2 {
+    height: 450px;
+}
+.main-img3 {
+    height: 400px;
+}
+
+.main-foot-nav {
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding:20px 0;
+    border-top: 1px solid rgb(224, 224, 224);
+
+}
+.foot-nav {
+    background-color: rgb(221, 202, 178);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.foot-nav:hover {
+    background-color: rgb(195, 178, 156);
+}
+
+
+
+
+/* Thanksgiving block */
+.thx-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.heart {
+    max-width: 120px;
+}
+
+.thx-text-title {
+    font-family: 'La Belle Aurore', cursive;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(69, 69, 69);
+    text-align: center;
+
+}
+
+.thx-text-article {
+    font-family: 'La Belle Aurore', cursive;
+    max-width: 600px;
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+    text-align: center;
+}
+.name {
+    font-size: 30px;
+}
+
+
+
+
+/* apps block */
+
+.apps-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.apps-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.apps-title {
+    font-family: 'La Belle Aurore', cursive;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(69, 69, 69);
+    text-align: center;
+
+}
+
+.apps-article {
+    font-family: 'La Belle Aurore', cursive;
+    max-width: 900px;
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+    text-align: center;
+}
+
+.apps-img {
+    height: 200px;
+    border-radius: 20px;
+    border: 4px solid rgb(221, 202, 178);
+    box-shadow: 0 0 20px 0;
+}
+
+.apps-img-holder {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+/* advises block */
+
+.advises-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.advises-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.advises-title {
+    font-family: 'La Belle Aurore', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(69, 69, 69);
+    text-align: center;
+}
+
+.advises-article {
+    font-family: 'La Belle Aurore', cursive;
+    max-width: 900px;
+    color: rgb(87, 87, 87);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.advises-img-holder1{
+    display: flex;
+    gap: 50px;
+
+}
+.advises-img1 {
+    border-radius: 20px;
+    border: 4px solid rgb(221, 202, 178);
+    box-shadow: 0 0 20px 0;
+    max-height: 450px;
+}
+
+.advises-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding-top: 60px;
+}
+
+.advises-apps {
+    display: flex;
+    gap: 60px;
+    padding-top: 40px;
+}
+.advises-name {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.locket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loveday{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advises-img {
+    height: 150px;
+    width: 410px;
+    border-radius: 20px;
+    border: 4px solid rgb(221, 202, 178);
+    box-shadow: 0 0 20px 0;
+    margin-top: 30px;
+}
+
+
+/* tutorial block */
+
+.tutorial-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.tutorial-title {
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(69, 69, 69);
+    text-align: center;
+}
+
+.step1 {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 20px 30px;
+    margin-bottom: 80px;
+}
+
+.tutorial-text-left {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+}
+
+.step1-img {
+    height: 500px;
+    border: 3px solid rgb(221, 202, 178);
+}
+
+
+
+.step2 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 20px 30px;
+    margin-bottom: 80px;
+}
+
+.tutorial-text {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+    text-align: center;
+}
+
+.step2-img-holder {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.step2-img {
+    height: 350px;
+    border: 3px solid rgb(221, 202, 178);
+}
+
+
+
+.step3 {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 20px 30px;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.step3-img {
+    height: 700px;
+    border: 3px solid rgb(221, 202, 178);
+}
+
+
+
+.step4 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 20px 30px;
+    margin-bottom: 80px;
+}
+
+
+.step4-img-holder {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.step4-img {
+    height: 450px;
+    border: 3px solid rgb(221, 202, 178);
+}
+
+
+
+.step5 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin-bottom: 80px;
+}
+
+.step5-img-holder {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.step5-img {
+    height: 350px;
+    border: 3px solid rgb(221, 202, 178);
+}
